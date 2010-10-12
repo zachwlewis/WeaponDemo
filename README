@@ -6,6 +6,8 @@ Properly setting up a game with these objects.
 
 With this project, I have attempted to create an extensible framework for creating a 2D game involving moving, shooting and multiple weapons.
 
+You can quickly view the entire project in FlashDevelop by opening Deskpop.as3proj.
+
 A few of the key things to notice are:
 
 * Weapon is its own class, completely seperate of Player.
