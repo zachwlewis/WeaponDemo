@@ -1,0 +1,17 @@
+Weapons, Bullets and Players
+=============================
+
+Properly setting up a game with these objects.
+----------------------------------------------
+
+With this project, I have attempted to create an extensible framework for creating a 2D game involving moving, shooting and multiple weapons.
+
+A few of the key things to notice are:
+
+* Weapon is its own class, completely seperate of Player.
+* Bullet is its own class, completely seperate of Weapon.
+* Weapon is an Entity. This allows ease of access to FP.elapsed (to handle the weapon's rate of fire).
+* Proper techniques were used in creating key handling in Player.
+* Weapons can be on their own. Think about attaching them to a turret and letting a Player colliding with it to be able to call the Weapon's shoot function. Cool, huh?
+
+I hope this helps some people. If you need more help, or if anything is confusing, email me, or leave me a message.
